@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Jacques+Francois&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hats.html">Hats Collection</a></li>
+                <li><a href="index.html"><img src="images/logo.png" alt="Mad Hatters Logo" Class="logo"></a></li>
+                <li><a href="cart.html">My Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Join us and get mad benefits</h1>
+    <div class="registration-form">
+        <h2 style="text-align: center; margin-bottom: 20px;">Register</h2>
+        <input type="text" id="full-name" placeholder="Full Name" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="register()">Register</button>
+        <div class="error-message" id="error-message"></div>
+    </div>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/7dd53465-7130-4f97-bf3a-3030f5c5e24b/4twBK7aDqt.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Mad Hatters - All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Jacques+Francois&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hats.html">Hats Collection</a></li>
+                <li><a href="index.html"><img src="images/logo.png" alt="Mad Hatters Logo" Class="logo"></a></li>
+                <li><a href="cart.html">My Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>My Shopping Cart</h1>
+      <div id="cart-container">
+        <p>Your cart is empty.</p>
+      </div>
+
+    <button onclick="clearCart()">Checkout</button>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <dotlottie-player src="https://lottie.host/53346e69-4333-4f88-9942-363e80b3094c/LEDJ5Y0zsg.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+    <script src="cart.js"></script>
+
+    <footer>
+        <p>&copy; 2025 Mad Hatters - All rights reserved.</p>
+    </footer>
+</body>
+</html>
